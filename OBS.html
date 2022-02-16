@@ -1,1 +1,10 @@
-
+<h2 style="text-align: center;"><strong>OBS Settings<br /></strong></h2>
+<p style="text-align: center;">I use these settings mainly to record games in high frame rate (120FPS+) at very high quality, some settings may not seem optimal, but ill explain my choices in detail as we continue.</p>
+<p style="text-align: center;"><img src="https://i.imgur.com/cU7kjIW.png" alt="" /></p>
+<p style="text-align: center;"><strong>Recording Format &ndash; </strong>using mkv will make sure your videos won't get corrupted, if you're using mp4 and your OBS crashes you'll lose all of your footage while mkv will work just fine.</p>
+<p style="text-align: center;"><strong>Encoder &ndash; </strong>utilizing hardware encoders for recording is a no-brainer, your in game performance won't suffer, and you'll be able to still play the game lag free. The only downsides of using hardware encoders is the file size required to reach the same level of quality as software encoder, that's why I would recommend using software encoder when livestreaming.</p>
+<p style="text-align: center;"><strong>Rate Control &ndash; </strong>CQP (Constant Quantization Parameter) is the best option when it comes to recording videos, It makes sure your video stays at the same quality. I would recommend setting this anywhere from 15 to 21 for high quality video, higher number means lower quality.</p>
+<p style="text-align: center;"><strong>Keyframe Interval &ndash; </strong>when recording this setting doesn't really matter, I would recommend keeping it at auto.</p>
+<p style="text-align: center;"><strong>Preset and Profile</strong> &ndash; when recording at that high of a bitrate those settings should be left at the lowest possible options, if you decide to use CQP higher than 21 I would recommend setting the Profile to high.</p>
+<p style="text-align: center;"><strong>Psycho Visual Tuning</strong> &ndash; enabling this setting on high bitrate is pointless, it'll just make your GPUs encoder work harder while not making a big difference.</p>
+<p style="text-align: center;"><strong>Max B-frames</strong> &ndash; when recording, keeping this setting at 0 is the best choice, since we are recording in high quality, and you can't notice a difference when doing so.</p>
